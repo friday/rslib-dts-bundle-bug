@@ -8,7 +8,6 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
@@ -18,11 +17,7 @@
     "noUncheckedIndexedAccess": true,
     "noFallthroughCasesInSwitch": true,
 
-    "lib": ["esnext", "dom", "dom.iterable"],
-
-    /* If NOT transpiling with TypeScript: */
-    "module": "preserve",
-    "noEmit": true
+    "lib": ["esnext", "dom", "dom.iterable"]
   },
   "exclude": ["node_modules"]
 }
