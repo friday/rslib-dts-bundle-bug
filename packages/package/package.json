@@ -1,0 +1,17 @@
+{
+  "name": "@test/package",
+  "description": "Test package",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rslib build",
+    "lint:ts": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/chromecast-caf-sender": "^1.0.10"
+  }
+}

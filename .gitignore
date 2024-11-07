@@ -1,0 +1,13 @@
+*.iml
+.idea
+*.log
+node_modules/
+target
+dist
+*~
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env
